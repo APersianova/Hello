@@ -1,15 +1,17 @@
-import java.util.Scanner;
+import java.util.*;
+import java.math.*;
+
 
 public class Hello {
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        String c = scanner.next();
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-
+        int n = scanner.nextInt();
+        if (n < 20) {
+            System.out.println(" меньше 20-ти");
+        }
+        else {
+            System.out.println("не меньше чем 20-ть");
+        }
     }
 
 }
